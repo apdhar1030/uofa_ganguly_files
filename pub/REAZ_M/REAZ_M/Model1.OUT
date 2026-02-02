@@ -1,0 +1,355 @@
+
+                                          *********************
+                                          *   D506   MINUIT   *
+                                          * DIMENSIONS 55/150 *
+                                          *   VERSION  2.77   *
+                                          * DATA BLOCK NO.  1 *
+    ************************************************************************************************
+     REZONE_M.INP         INITIAL    VARISTEP    LOW     
+    ************************************************************************************************
+    ************************************************************************************************
+         1  B/r         0.480000E-010.100000E-02  0.400000E-010.100000    
+         2  PGAMA        2.00000    0.100000E-02  0.100000E-01 10.0000    
+         3  CI          0.475000    0.100000E-02  0.460000    0.480000    
+         4  RZ          0.100000E-01
+    ************************************************************************************************
+
+0FIRST ENTRY TO FCN 
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.5272281E+08      1            0.00E+00     1   1   B/r        0.48000E-01   0.10000E-02  -0.82321E+00   0.49118E-01
+                                               2   2   PGAMA      0.20000E+01   0.10000E-02  -0.64550E+00   0.25063E-03
+                                               3   3   CI         0.47500E+00   0.10000E-02   0.52360E+00   0.11599E+00
+                                                   4   RZ         0.10000E-01
+ **********
+ ***  1****          
+ **********
+ **********
+ ***  2****          
+ **********
+ **********
+ ***  3****          
+ **********
+ **********
+ ***  4****ERROR DEF         0.00001
+ **********
+ **********
+ ***  5****PRINTOUT  
+ **********
+ **********
+ ***  6****SEEK      
+ **********
+ SEEK -- MONTE CARLO MINIMUM SEARCH
+0BEST VALUE FOUND IN SEEK IS
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.3936740E+08     33            0.00E+00     1   1   B/r        0.53692E-01   0.10000E-02  -0.57473E+00   0.49118E-01
+                                               2   2   PGAMA      0.20018E+01   0.10000E-02  -0.64506E+00   0.25063E-03
+                                               3   3   CI         0.46989E+00   0.10000E-02  -0.11292E-01   0.11599E+00
+                                                   4   RZ         0.10000E-01
+ **********
+ ***  7****MIGRAD            0.00001
+ **********
+ START MIGRAD MINIMIZATION.                  CONVERGENCE CRITERIA  --  ESTIMATED DISTANCE TO MINIMUM (EDM) .LT. 0.10E-10
+                                             OR EDM .LT. 0.10E-05 AND FRACTIONAL CHANGE IN VARIANCE MATRIX .LT. 0.10E-01
+           COVARIANCE MATRIX IS NOT POSITIVE-DEFINITE.
+           COVARIANCE MATRIX IS NOT POSITIVE-DEFINITE.
+           COVARIANCE MATRIX IS NOT POSITIVE-DEFINITE.
+           COVARIANCE MATRIX IS NOT POSITIVE-DEFINITE.
+ MIGRAD FAILS TO FIND IMPROVEMENT 
+           COVARIANCE MATRIX IS NOT POSITIVE-DEFINITE.
+           COVARIANCE MATRIX IS NOT POSITIVE-DEFINITE.
+           COVARIANCE MATRIX IS NOT POSITIVE-DEFINITE.
+ MIGRAD FAILS TO FIND IMPROVEMENT 
+ MIGRAD TERMINATED WITHOUT CONVERGENCE 
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.9538775E+07    239            0.38E-07     1   1   B/r        0.10000E+00   0.91177E-14   0.15708E+01   0.34659E-07
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                               2   2   PGAMA      0.14834E+01   0.33574E-07  -0.78247E+00   0.14091E-09
+                                               3   3   CI         0.48000E+00   0.14155E-14   0.15708E+01  -0.25767E-08
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                                   4   RZ         0.10000E-01
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ START SIMPLEX MINIMIZATION                  CONVERGENCE CRITERION -- ESTIMATED DISTANCE TO MINIMUM (EDM) .LT.  0.10E-05
+0***** FUNCTION VALUE DOES NOT SEEM TO DEPEND ON ANYOF THE   3 VARIABLE PARAMETERS
+               VERIFY THAT STEP SIZES ARE BIG ENOUGH AND CHECK FCN LOGIC.
+ *********************************************************************************
+ *********************************************************************************
+
+
+
+ SIMPLEX MINIMIZATION HAS CONVERGED
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.9538775E+07    382            0.00E+00     1   1   B/r        0.10000E+00   0.00000E+00   0.15708E+01   0.29574E-07
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                               2   2   PGAMA      0.14834E+01   0.42454E-11  -0.78247E+00   0.10658E-15
+                                               3   3   CI         0.48000E+00   0.00000E+00   0.15708E+01   0.35612E-11
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                                   4   RZ         0.10000E-01
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ START MIGRAD MINIMIZATION.                  CONVERGENCE CRITERIA  --  ESTIMATED DISTANCE TO MINIMUM (EDM) .LT. 0.10E-10
+                                             OR EDM .LT. 0.10E-05 AND FRACTIONAL CHANGE IN VARIANCE MATRIX .LT. 0.10E-01
+           COVARIANCE MATRIX IS NOT POSITIVE-DEFINITE.
+           COVARIANCE MATRIX IS NOT POSITIVE-DEFINITE.
+           COVARIANCE MATRIX IS NOT POSITIVE-DEFINITE.
+           COVARIANCE MATRIX IS NOT POSITIVE-DEFINITE.
+           COVARIANCE MATRIX IS NOT POSITIVE-DEFINITE.
+ MIGRAD TERMINATED WITHOUT CONVERGENCE 
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.9538775E+07    429            0.00E+00     1   1   B/r        0.10000E+00   0.00000E+00   0.15708E+01  -0.53366E-08
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                               2   2   PGAMA      0.14834E+01   0.42454E-11  -0.78247E+00  -0.78247E-08
+                                               3   3   CI         0.48000E+00   0.00000E+00   0.15708E+01   0.15708E-07
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                                   4   RZ         0.10000E-01
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ **********
+ ***  8****SEEK      
+ **********
+ SEEK -- MONTE CARLO MINIMUM SEARCH
+0BEST VALUE FOUND IN SEEK IS
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.9538775E+07    459            0.00E+00     1   1   B/r        0.10000E+00   0.27756E-16   0.15708E+01  -0.53366E-08
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                               2   2   PGAMA      0.14834E+01   0.42454E-11  -0.78247E+00  -0.78247E-08
+                                               3   3   CI         0.48000E+00   0.00000E+00   0.15708E+01   0.15708E-07
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                                   4   RZ         0.10000E-01
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ **********
+ ***  9****MIGRAD            0.00001
+ **********
+ START MIGRAD MINIMIZATION.                  CONVERGENCE CRITERIA  --  ESTIMATED DISTANCE TO MINIMUM (EDM) .LT. 0.10E-10
+                                             OR EDM .LT. 0.10E-05 AND FRACTIONAL CHANGE IN VARIANCE MATRIX .LT. 0.10E-01
+ MIGRAD FAILS TO FIND IMPROVEMENT 
+ MIGRAD TERMINATED WITHOUT CONVERGENCE 
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.9538775E+07    468            0.97E-06     1   1   B/r        0.10000E+00   0.99920E-15   0.15708E+01  -0.19635E-09
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                               2   2   PGAMA      0.14834E+01   0.15951E-07  -0.78247E+00   0.98363E-09
+                                               3   3   CI         0.48000E+00   0.10547E-14   0.15708E+01  -0.73631E-08
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                                   4   RZ         0.10000E-01
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ START SIMPLEX MINIMIZATION                  CONVERGENCE CRITERION -- ESTIMATED DISTANCE TO MINIMUM (EDM) .LT.  0.10E-05
+ SIMPLEX MINIMIZATION HAS CONVERGED
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.9538775E+07    580            0.19E-08     1   1   B/r        0.10000E+00   0.39899E-14   0.15708E+01   0.81338E-08
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                               2   2   PGAMA      0.14834E+01   0.27947E-11  -0.78247E+00   0.00000E+00
+                                               3   3   CI         0.48000E+00   0.00000E+00   0.15708E+01   0.37748E-14
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                                   4   RZ         0.10000E-01
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ START MIGRAD MINIMIZATION.                  CONVERGENCE CRITERIA  --  ESTIMATED DISTANCE TO MINIMUM (EDM) .LT. 0.10E-10
+                                             OR EDM .LT. 0.10E-05 AND FRACTIONAL CHANGE IN VARIANCE MATRIX .LT. 0.10E-01
+ MIGRAD FAILS TO FIND IMPROVEMENT 
+ MIGRAD TERMINATED WITHOUT CONVERGENCE 
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.9538775E+07    589            0.12E-04     1   1   B/r        0.10000E+00   0.16515E-14   0.15708E+01  -0.68722E-08
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                               2   2   PGAMA      0.14834E+01   0.13112E-07  -0.78247E+00   0.28626E-08
+                                               3   3   CI         0.48000E+00   0.10270E-14   0.15708E+01   0.15708E-08
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                                   4   RZ         0.10000E-01
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ **********
+ *** 10****SEEK      
+ **********
+ SEEK -- MONTE CARLO MINIMUM SEARCH
+0BEST VALUE FOUND IN SEEK IS
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.9538775E+07    619            0.12E-04     1   1   B/r        0.10000E+00   0.16584E-14   0.15708E+01  -0.68722E-08
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                               2   2   PGAMA      0.14834E+01   0.13112E-07  -0.78247E+00   0.28626E-08
+                                               3   3   CI         0.48000E+00   0.99920E-15   0.15708E+01   0.15708E-08
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                                   4   RZ         0.10000E-01
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ **********
+ *** 11****          
+ **********
+ **********
+ *** 12****MIGRAD            0.00001
+ **********
+ START MIGRAD MINIMIZATION.                  CONVERGENCE CRITERIA  --  ESTIMATED DISTANCE TO MINIMUM (EDM) .LT. 0.10E-10
+                                             OR EDM .LT. 0.10E-05 AND FRACTIONAL CHANGE IN VARIANCE MATRIX .LT. 0.10E-01
+ MIGRAD FAILS TO FIND IMPROVEMENT 
+ MIGRAD TERMINATED WITHOUT CONVERGENCE 
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.9538775E+07    628            0.87E-06     1   1   B/r        0.10000E+00   0.13878E-16   0.15708E+01  -0.80066E-12
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                               2   2   PGAMA      0.14834E+01   0.15602E-07  -0.78247E+00  -0.91886E-09
+                                               3   3   CI         0.48000E+00   0.55511E-16   0.15708E+01  -0.10147E-10
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                                   4   RZ         0.10000E-01
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ START SIMPLEX MINIMIZATION                  CONVERGENCE CRITERION -- ESTIMATED DISTANCE TO MINIMUM (EDM) .LT.  0.10E-05
+0***** FUNCTION VALUE DOES NOT SEEM TO DEPEND ON ANYOF THE   3 VARIABLE PARAMETERS
+               VERIFY THAT STEP SIZES ARE BIG ENOUGH AND CHECK FCN LOGIC.
+ *********************************************************************************
+ *********************************************************************************
+
+
+
+0***** FUNCTION VALUE DOES NOT SEEM TO DEPEND ON ANYOF THE   3 VARIABLE PARAMETERS
+               VERIFY THAT STEP SIZES ARE BIG ENOUGH AND CHECK FCN LOGIC.
+ *********************************************************************************
+ *********************************************************************************
+
+
+
+ SIMPLEX MINIMIZATION HAS CONVERGED
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.9538775E+07    751            0.00E+00     1   1   B/r        0.10000E+00   0.00000E+00   0.15708E+01   0.66613E-15
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                               2   2   PGAMA      0.14834E+01   0.10915E-10  -0.78247E+00   0.11102E-15
+                                               3   3   CI         0.48000E+00   0.00000E+00   0.15708E+01   0.48495E-12
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                                   4   RZ         0.10000E-01
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ START MIGRAD MINIMIZATION.                  CONVERGENCE CRITERIA  --  ESTIMATED DISTANCE TO MINIMUM (EDM) .LT. 0.10E-10
+                                             OR EDM .LT. 0.10E-05 AND FRACTIONAL CHANGE IN VARIANCE MATRIX .LT. 0.10E-01
+ MIGRAD FAILS TO FIND IMPROVEMENT 
+ MIGRAD TERMINATED WITHOUT CONVERGENCE 
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.9538775E+07    760            0.87E-06     1   1   B/r        0.10000E+00   0.13878E-16   0.15708E+01  -0.80066E-12
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                               2   2   PGAMA      0.14834E+01   0.15602E-07  -0.78247E+00  -0.91886E-09
+                                               3   3   CI         0.48000E+00   0.55511E-16   0.15708E+01  -0.10147E-10
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                                   4   RZ         0.10000E-01
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ **********
+ *** 13****MIGRAD            0.00001
+ **********
+ START MIGRAD MINIMIZATION.                  CONVERGENCE CRITERIA  --  ESTIMATED DISTANCE TO MINIMUM (EDM) .LT. 0.10E-10
+                                             OR EDM .LT. 0.10E-05 AND FRACTIONAL CHANGE IN VARIANCE MATRIX .LT. 0.10E-01
+ MIGRAD FAILS TO FIND IMPROVEMENT 
+ MIGRAD TERMINATED WITHOUT CONVERGENCE 
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.9538775E+07    769            0.87E-06     1   1   B/r        0.10000E+00   0.13878E-16   0.15708E+01  -0.80066E-12
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                               2   2   PGAMA      0.14834E+01   0.15602E-07  -0.78247E+00  -0.91886E-09
+                                               3   3   CI         0.48000E+00   0.55511E-16   0.15708E+01  -0.10147E-10
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                                   4   RZ         0.10000E-01
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ START SIMPLEX MINIMIZATION                  CONVERGENCE CRITERION -- ESTIMATED DISTANCE TO MINIMUM (EDM) .LT.  0.10E-05
+0***** FUNCTION VALUE DOES NOT SEEM TO DEPEND ON ANYOF THE   3 VARIABLE PARAMETERS
+               VERIFY THAT STEP SIZES ARE BIG ENOUGH AND CHECK FCN LOGIC.
+ *********************************************************************************
+ *********************************************************************************
+
+
+
+0***** FUNCTION VALUE DOES NOT SEEM TO DEPEND ON ANYOF THE   3 VARIABLE PARAMETERS
+               VERIFY THAT STEP SIZES ARE BIG ENOUGH AND CHECK FCN LOGIC.
+ *********************************************************************************
+ *********************************************************************************
+
+
+
+ SIMPLEX MINIMIZATION HAS CONVERGED
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.9538775E+07    892            0.00E+00     1   1   B/r        0.10000E+00   0.00000E+00   0.15708E+01   0.66613E-15
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                               2   2   PGAMA      0.14834E+01   0.10915E-10  -0.78247E+00   0.11102E-15
+                                               3   3   CI         0.48000E+00   0.00000E+00   0.15708E+01   0.48495E-12
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                                   4   RZ         0.10000E-01
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ START MIGRAD MINIMIZATION.                  CONVERGENCE CRITERIA  --  ESTIMATED DISTANCE TO MINIMUM (EDM) .LT. 0.10E-10
+                                             OR EDM .LT. 0.10E-05 AND FRACTIONAL CHANGE IN VARIANCE MATRIX .LT. 0.10E-01
+ MIGRAD FAILS TO FIND IMPROVEMENT 
+ MIGRAD TERMINATED WITHOUT CONVERGENCE 
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.9538775E+07    901            0.87E-06     1   1   B/r        0.10000E+00   0.13878E-16   0.15708E+01  -0.80066E-12
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                               2   2   PGAMA      0.14834E+01   0.15602E-07  -0.78247E+00  -0.91886E-09
+                                               3   3   CI         0.48000E+00   0.55511E-16   0.15708E+01  -0.10147E-10
+                                                     WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                                                   4   RZ         0.10000E-01
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ **********
+ *** 14****CALL FCN          3.00000
+ **********
+    0.0000      0.276000      0.246000
+    1.0000      0.294000      0.317194
+    2.0000      0.313000      0.349594
+    3.0000      0.331000      0.368386
+    4.0000      0.335000      0.381297
+    5.0000      0.366000      0.391096
+    6.0000      0.387000      0.398975
+    7.0000      0.395000      0.405538
+    8.0000      0.397000      0.411140
+    9.0000      0.411000      0.416003
+   10.0000      0.416000      0.420282
+   11.0000      0.426000      0.424086
+   12.0000      0.428000      0.427496
+   13.0000      0.434000      0.430574
+   14.0000      0.437000      0.433367
+   15.0000      0.444000      0.435914
+   16.0000      0.439000      0.438246
+   17.0000      0.443000      0.440387
+   18.0000      0.446000      0.442360
+   19.0000      0.451000      0.444181
+   20.0000      0.450000      0.445865
+   21.0000      0.453000      0.447426
+   22.0000      0.455000      0.448874
+   23.0000      0.454000      0.450218
+   24.0000      0.459000      0.451466
+   25.0000      0.458000      0.452626
+   26.0000      0.461000      0.453705
+   27.0000      0.460000      0.454707
+   28.0000      0.473000      0.455637
+   29.0000      0.465000      0.456501
+   30.0000      0.465000      0.457301
+   31.0000      0.464000      0.458042
+   32.0000      0.466000      0.458725
+   33.0000      0.464000      0.459355
+   34.0000      0.470000      0.459933
+   35.0000      0.469000      0.460462
+   36.0000      0.468000      0.460944
+   37.0000      0.470000      0.461379
+   38.0000      0.466000      0.461771
+   39.0000      0.474000      0.462120
+   40.0000      0.472000      0.462427
+   41.0000      0.474000      0.462694
+   42.0000      0.470000      0.462921
+   43.0000      0.469000      0.463109
+   44.0000      0.470000      0.463259
+   45.0000      0.473000      0.463371
+   46.0000      0.474000      0.463446
+   47.0000      0.474000      0.463483
+ **********
+ *** 15****EXIT      
+ **********

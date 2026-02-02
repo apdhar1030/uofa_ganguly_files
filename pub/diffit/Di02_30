@@ -1,0 +1,373 @@
+
+                                          *********************
+                                          *   D506   MINUIT   *
+                                          * DIMENSIONS 55/150 *
+                                          *   VERSION  2.77   *
+                                          * DATA BLOCK NO.  1 *
+    ************************************************************************************************
+     ts2f22                .          .            .     
+    ************************************************************************************************
+    ************************************************************************************************
+         1  D           0.500000    0.100000E-04   0.00000     500.000    
+         2  C0           600.000    0.100000E-04  0.500000E-02 600000.    
+    ************************************************************************************************
+
+0FIRST ENTRY TO FCN 
+  -407.596000000000        1.00000000000000     
+  -378.482000000000        9.00000000000000     
+  -349.368000000000        10.5000000000000     
+  -320.254000000000        16.0000000000000     
+  -291.140000000000        65.5000000000000     
+  -262.026000000000        447.500000000000     
+  -232.913000000000        1937.50000000000     
+  -203.799000000000        6053.00000000000     
+  -174.685000000000        13422.5000000000     
+  -145.571000000000        21881.0000000000     
+  -116.457000000000        29204.0000000000     
+  -87.3430000000000        34459.0000000000     
+  -58.2290000000000        37368.5000000000     
+  -29.1150000000000        37947.0000000000     
+ -1.000000000033197E-003   36886.0000000000     
+   29.1129999999999        35010.0000000000     
+   58.2270000000000        32148.0000000000     
+   87.3410000000000        29210.0000000000     
+   116.455000000000        26352.5000000000     
+   145.568000000000        23548.0000000000     
+   174.682000000000        20943.5000000000     
+   203.796000000000        18815.0000000000     
+   232.910000000000        17151.5000000000     
+   262.024000000000        15201.0000000000     
+   291.138000000000        13563.0000000000     
+   320.252000000000        12121.0000000000     
+   349.366000000000        10844.0000000000     
+   378.480000000000        9746.00000000000     
+   407.594000000000        8904.00000000000     
+   436.708000000000        7731.00000000000     
+   465.822000000000        6923.00000000000     
+   494.936000000000        6342.00000000000     
+   524.049000000000        5757.50000000000     
+   553.163000000000        5422.50000000000     
+   582.277000000000        4787.50000000000     
+   611.391000000000        4367.50000000000     
+   640.505000000000        3977.50000000000     
+   669.619000000000        3614.50000000000     
+   698.733000000000        3427.50000000000     
+   727.847000000000        3056.00000000000     
+   756.961000000000        2841.00000000000     
+   786.075000000000        2639.50000000000     
+   815.189000000000        2453.50000000000     
+   844.303000000000        2296.00000000000     
+   873.417000000000        2133.50000000000     
+   902.531000000000        1982.00000000000     
+   931.644000000000        1903.00000000000     
+   960.758000000000        1748.50000000000     
+   989.872000000000        1604.00000000000     
+   1018.98600000000        1553.50000000000     
+   1048.10000000000        1374.00000000000     
+   1077.21400000000        1281.00000000000     
+   1106.32800000000        1206.00000000000     
+   1135.44200000000        1225.00000000000     
+   1164.55600000000        1151.50000000000     
+   1193.67000000000        1089.00000000000     
+   1222.78400000000        1082.50000000000     
+   1251.89800000000        1005.00000000000     
+   1281.01200000000        978.500000000000     
+   1310.12500000000        979.500000000000     
+   1339.23900000000        927.000000000000     
+   1368.35300000000        961.000000000000     
+   1397.46700000000        877.500000000000     
+   1426.58100000000        845.500000000000     
+   1455.69500000000        760.500000000000     
+   1484.80900000000        780.000000000000     
+   1513.92300000000        787.000000000000     
+   1543.03700000000        769.500000000000     
+   1572.15100000000        735.500000000000     
+   1601.26500000000        696.500000000000     
+   1630.37900000000        735.500000000000     
+   1659.49300000000        686.500000000000     
+   1688.60600000000        690.500000000000     
+   1717.72000000000        657.500000000000     
+   1746.83400000000        628.000000000000     
+   1775.94800000000        608.000000000000     
+   1805.06200000000        640.500000000000     
+   1834.17600000000        612.500000000000     
+   1863.29000000000        584.500000000000     
+   1892.40400000000        544.500000000000     
+   1921.51800000000        528.000000000000     
+   1950.63200000000        526.000000000000     
+   1979.74569600000        490.000000000000     
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.2720208E+09      1            0.00E+00     1   1   D          0.50000E+00   0.10000E-04  -0.15075E+01   0.63277E-06
+                                               2   2   C0         0.60000E+03   0.10000E-04  -0.15075E+01   0.52731E-09
+ **********
+ ***  1****          
+ **********
+ **********
+ ***  2****ERROR DEF         0.00001
+ **********
+ **********
+ ***  3****PRINTOUT  
+ **********
+ **********
+ ***  4****SEEK      
+ **********
+ SEEK -- MONTE CARLO MINIMUM SEARCH
+0BEST VALUE FOUND IN SEEK IS
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.2720207E+09     23            0.00E+00     1   1   D          0.50005E+00   0.10000E-04  -0.15075E+01   0.63277E-06
+                                               2   2   C0         0.60000E+03   0.10000E-04  -0.15075E+01   0.52731E-09
+ **********
+ ***  5****MIGRAD            0.00001
+ **********
+ START MIGRAD MINIMIZATION.                  CONVERGENCE CRITERIA  --  ESTIMATED DISTANCE TO MINIMUM (EDM) .LT. 0.10E-10
+                                             OR EDM .LT. 0.10E-05 AND FRACTIONAL CHANGE IN VARIANCE MATRIX .LT. 0.10E-01
+           COVARIANCE MATRIX IS NOT POSITIVE-DEFINITE.
+           COVARIANCE MATRIX IS NOT POSITIVE-DEFINITE.
+           COVARIANCE MATRIX IS NOT POSITIVE-DEFINITE.
+ MIGRAD FAILS TO FIND IMPROVEMENT 
+ MIGRAD TERMINATED WITHOUT CONVERGENCE 
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.1189514E+07    118            0.10E-08     1   1   D          0.51844E+00   0.29464E-06  -0.15064E+01   0.92559E-10
+                                               2   2   C0         0.17418E+05   0.92368E-02  -0.12284E+01  -0.27182E-09
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ START SIMPLEX MINIMIZATION                  CONVERGENCE CRITERION -- ESTIMATED DISTANCE TO MINIMUM (EDM) .LT.  0.10E-05
+ SIMPLEX MINIMIZATION HAS CONVERGED
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.1189514E+07    132            0.26E-06     1   1   D          0.51844E+00   0.13090E-06  -0.15064E+01   0.14648E-08
+                                               2   2   C0         0.17418E+05   0.36042E-02  -0.12284E+01   0.50432E-08
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ START MIGRAD MINIMIZATION.                  CONVERGENCE CRITERIA  --  ESTIMATED DISTANCE TO MINIMUM (EDM) .LT. 0.10E-10
+                                             OR EDM .LT. 0.10E-05 AND FRACTIONAL CHANGE IN VARIANCE MATRIX .LT. 0.10E-01
+ MIGRAD FAILS TO FIND IMPROVEMENT 
+ MIGRAD TERMINATED WITHOUT CONVERGENCE 
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.1189514E+07    146            0.34E-08     1   1   D          0.51844E+00   0.72586E-07  -0.15064E+01   0.23577E-10
+                                               2   2   C0         0.17418E+05   0.36043E-02  -0.12284E+01   0.23385E-09
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ **********
+ ***  6****SEEK      
+ **********
+ SEEK -- MONTE CARLO MINIMUM SEARCH
+0BEST VALUE FOUND IN SEEK IS
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.1189514E+07    166            0.34E-08     1   1   D          0.51844E+00   0.72586E-07  -0.15064E+01   0.23577E-10
+                                               2   2   C0         0.17418E+05   0.36043E-02  -0.12284E+01   0.23385E-09
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ **********
+ ***  7****MIGRAD            0.00001
+ **********
+ START MIGRAD MINIMIZATION.                  CONVERGENCE CRITERIA  --  ESTIMATED DISTANCE TO MINIMUM (EDM) .LT. 0.10E-10
+                                             OR EDM .LT. 0.10E-05 AND FRACTIONAL CHANGE IN VARIANCE MATRIX .LT. 0.10E-01
+ MIGRAD FAILS TO FIND IMPROVEMENT 
+ MIGRAD TERMINATED WITHOUT CONVERGENCE 
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.1189514E+07    180            0.35E-08     1   1   D          0.51844E+00   0.16214E-06  -0.15064E+01   0.11986E-09
+                                               2   2   C0         0.17418E+05   0.51109E-02  -0.12284E+01  -0.10325E-08
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ START SIMPLEX MINIMIZATION                  CONVERGENCE CRITERION -- ESTIMATED DISTANCE TO MINIMUM (EDM) .LT.  0.10E-05
+ SIMPLEX MINIMIZATION HAS CONVERGED
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.1189514E+07    190            0.60E-06     1   1   D          0.51844E+00   0.85193E-07  -0.15064E+01   0.80606E-09
+                                               2   2   C0         0.17418E+05   0.33700E-02  -0.12284E+01   0.81179E-08
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ START MIGRAD MINIMIZATION.                  CONVERGENCE CRITERIA  --  ESTIMATED DISTANCE TO MINIMUM (EDM) .LT. 0.10E-10
+                                             OR EDM .LT. 0.10E-05 AND FRACTIONAL CHANGE IN VARIANCE MATRIX .LT. 0.10E-01
+ MIGRAD FAILS TO FIND IMPROVEMENT 
+ MIGRAD TERMINATED WITHOUT CONVERGENCE 
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.1189514E+07    204            0.64E-08     1   1   D          0.51844E+00   0.64684E-07  -0.15064E+01   0.39767E-10
+                                               2   2   C0         0.17418E+05   0.31696E-02  -0.12284E+01   0.40051E-10
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ **********
+ ***  8****SEEK      
+ **********
+ SEEK -- MONTE CARLO MINIMUM SEARCH
+0BEST VALUE FOUND IN SEEK IS
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.1189514E+07    224            0.64E-08     1   1   D          0.51844E+00   0.64684E-07  -0.15064E+01   0.39767E-10
+                                               2   2   C0         0.17418E+05   0.31696E-02  -0.12284E+01   0.40051E-10
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ **********
+ ***  9****MIGRAD            0.00001
+ **********
+ START MIGRAD MINIMIZATION.                  CONVERGENCE CRITERIA  --  ESTIMATED DISTANCE TO MINIMUM (EDM) .LT. 0.10E-10
+                                             OR EDM .LT. 0.10E-05 AND FRACTIONAL CHANGE IN VARIANCE MATRIX .LT. 0.10E-01
+ MIGRAD FAILS TO FIND IMPROVEMENT 
+ MIGRAD TERMINATED WITHOUT CONVERGENCE 
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.1189514E+07    238            0.35E-08     1   1   D          0.51844E+00   0.62861E-07  -0.15064E+01   0.30115E-10
+                                               2   2   C0         0.17418E+05   0.34367E-02  -0.12284E+01   0.86536E-10
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ START SIMPLEX MINIMIZATION                  CONVERGENCE CRITERION -- ESTIMATED DISTANCE TO MINIMUM (EDM) .LT.  0.10E-05
+ SIMPLEX MINIMIZATION HAS CONVERGED
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.1189514E+07    249            0.57E-07     1   1   D          0.51844E+00   0.75422E-07  -0.15064E+01   0.35157E-09
+                                               2   2   C0         0.17418E+05   0.32362E-02  -0.12284E+01   0.27293E-08
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ START MIGRAD MINIMIZATION.                  CONVERGENCE CRITERIA  --  ESTIMATED DISTANCE TO MINIMUM (EDM) .LT. 0.10E-10
+                                             OR EDM .LT. 0.10E-05 AND FRACTIONAL CHANGE IN VARIANCE MATRIX .LT. 0.10E-01
+ MIGRAD FAILS TO FIND IMPROVEMENT 
+ MIGRAD TERMINATED WITHOUT CONVERGENCE 
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.1189514E+07    263            0.26E-07     1   1   D          0.51844E+00   0.12598E-06  -0.15064E+01   0.20399E-09
+                                               2   2   C0         0.17418E+05   0.51050E-02  -0.12284E+01  -0.28456E-09
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ **********
+ *** 10****MIGRAD            0.00001
+ **********
+ START MIGRAD MINIMIZATION.                  CONVERGENCE CRITERIA  --  ESTIMATED DISTANCE TO MINIMUM (EDM) .LT. 0.10E-10
+                                             OR EDM .LT. 0.10E-05 AND FRACTIONAL CHANGE IN VARIANCE MATRIX .LT. 0.10E-01
+ MIGRAD FAILS TO FIND IMPROVEMENT 
+ MIGRAD TERMINATED WITHOUT CONVERGENCE 
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.1189514E+07    284            0.15E-08     1   1   D          0.51844E+00   0.77358E-07  -0.15064E+01   0.36096E-10
+                                               2   2   C0         0.17418E+05   0.15875E-02  -0.12284E+01  -0.20429E-10
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ START SIMPLEX MINIMIZATION                  CONVERGENCE CRITERION -- ESTIMATED DISTANCE TO MINIMUM (EDM) .LT.  0.10E-05
+ SIMPLEX MINIMIZATION HAS CONVERGED
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.1189514E+07    294            0.63E-07     1   1   D          0.51844E+00   0.80527E-07  -0.15064E+01   0.38458E-09
+                                               2   2   C0         0.17418E+05   0.25678E-02  -0.12284E+01   0.25215E-08
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ START MIGRAD MINIMIZATION.                  CONVERGENCE CRITERIA  --  ESTIMATED DISTANCE TO MINIMUM (EDM) .LT. 0.10E-10
+                                             OR EDM .LT. 0.10E-05 AND FRACTIONAL CHANGE IN VARIANCE MATRIX .LT. 0.10E-01
+ MIGRAD FAILS TO FIND IMPROVEMENT 
+ MIGRAD TERMINATED WITHOUT CONVERGENCE 
+
+    FCN VALUE     CALLS             EDM      HINT.EXT. PARAMETER     VALUE         ERROR      INTERN.VALUE  INT.STEP SIZE
+  0.1189514E+07    301            0.22E-08     1   1   D          0.51844E+00   0.10308E-06  -0.15064E+01  -0.66038E-10
+                                               2   2   C0         0.17418E+05   0.32318E-02  -0.12284E+01  -0.45849E-10
+
+                                             ERRORS CORRESPOND TO FUNCTION CHANGE OF     0.0000
+ **********
+ *** 11****CALL FCN          3.00000
+ **********
+  436.7     0.39958     0.42516
+  465.8     0.36890     0.37721
+  494.9     0.33973     0.34273
+  524.0     0.31209     0.30804
+  553.2     0.28597     0.28816
+  582.3     0.26136     0.25048
+  611.4     0.23827     0.22555
+  640.5     0.21665     0.20241
+  669.6     0.19648     0.18087
+  698.7     0.17772     0.16977
+  727.8     0.16033     0.14772
+  757.0     0.14426     0.13496
+  786.1     0.12945     0.12301
+  815.2     0.11585     0.11197
+  844.3     0.10340     0.10262
+  873.4     0.09203     0.09298
+  902.5     0.08170     0.08399
+  931.6     0.07232     0.07930
+  960.8     0.06385     0.07013
+  989.9     0.05621     0.06155
+ 1019.0     0.04935     0.05856
+ 1048.1     0.04321     0.04791
+ 1077.2     0.03772     0.04239
+ 1106.3     0.03284     0.03794
+ 1135.4     0.02851     0.03906
+ 1164.6     0.02468     0.03470
+ 1193.7     0.02131     0.03099
+ 1222.8     0.01834     0.03061
+ 1251.9     0.01574     0.02601
+ 1281.0     0.01347     0.02444
+ 1310.1     0.01150     0.02449
+ 1339.2     0.00979     0.02138
+ 1368.4     0.00830     0.02340
+ 1397.5     0.00703     0.01844
+ 1426.6     0.00593     0.01654
+ 1455.7     0.00499     0.01150
+ 1484.8     0.00418     0.01266
+ 1513.9     0.00350     0.01307
+ 1543.0     0.00292     0.01203
+ 1572.2     0.00242     0.01001
+ 1601.3     0.00201     0.00770
+ 1630.4     0.00166     0.01001
+ 1659.5     0.00137     0.00711
+ 1688.6     0.00113     0.00734
+ 1717.7     0.00092     0.00539
+ 1746.8     0.00075     0.00363
+ 1775.9     0.00061     0.00245
+ 1805.1     0.00050     0.00438
+ 1834.2     0.00040     0.00272
+ 1863.3     0.00033     0.00105
+ 1892.4     0.00026    -0.00132
+ 1921.5     0.00021    -0.00230
+ 1950.6     0.00017    -0.00242
+ 1979.7     0.00013    -0.00455
+      0   1.0000013   0.0000000
+     25   0.9615394   0.0000000
+     50   0.9231670   0.0000000
+     75   0.8849727   0.0000000
+    100   0.8470438   0.0000000
+    125   0.8094661   0.0000000
+    150   0.7723226   0.0000000
+    175   0.7356937   0.0000000
+    200   0.6996560   0.0000000
+    225   0.6642825   0.0000000
+    250   0.6296414   0.0000000
+    275   0.5957965   0.0000000
+    300   0.5628062   0.0000000
+    325   0.5307237   0.0000000
+    350   0.4995963   0.0000000
+    375   0.4694659   0.0000000
+    400   0.4403682   0.0000000
+    425   0.4123330   0.0000000
+    450   0.3853844   0.0000000
+    475   0.3595403   0.0000000
+    500   0.3348130   0.0000000
+    525   0.3112093   0.0000000
+    550   0.2887303   0.0000000
+    575   0.2673723   0.0000000
+    600   0.2471263   0.0000000
+    625   0.2279792   0.0000000
+    650   0.2099133   0.0000000
+    675   0.1929071   0.0000000
+    700   0.1769356   0.0000000
+    725   0.1619708   0.0000000
+    750   0.1479818   0.0000000
+    775   0.1349352   0.0000000
+    800   0.1227959   0.0000000
+    825   0.1115269   0.0000000
+    850   0.1010903   0.0000000
+    875   0.0914469   0.0000000
+    900   0.0825572   0.0000000
+    925   0.0743813   0.0000000
+    950   0.0668793   0.0000000
+    975   0.0600117   0.0000000
+   1000   0.0537394   0.0000000
+ Cinf    566.750000000000      AFTER    2200.00000000000     Angstrom
+ STANDARD DEVIATION for D(*10^-16) Infinity               
+ STANDARD DEVIATION for LOG10(D) Infinity               
+ **********
+ *** 12****EXIT      
+ **********
